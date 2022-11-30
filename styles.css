@@ -23,3 +23,8 @@ canvas {
   margin: 20px auto;
   margin-top: 20px;
 }
+.footer {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

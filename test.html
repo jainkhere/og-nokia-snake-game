@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Jain Kunal CS460 Assignment 02</title>
+    <link rel="stylesheet" href="styles1.css" />
+
+    <script
+      type="text/javascript"
+      src="https://get.goXTK.com/xtk_edge.js"
+    ></script>
+
+    <!-- <script text="text/javascript">
+      window.onload = function () {
+        var renderer = new X.renderer3D();
+        renderer.container = "playground";
+        renderer.init();
+
+        for (var i = 0; i < 20; i++) {
+          for (var j = 0; j < 20; j++) {
+            var cube = new X.cube();
+            cube.center = [25 * i, 25 * j, 0];
+            cube.color = [1, 1, 1];
+
+            renderer.add(cube);
+          }
+        }
+
+        renderer.camera.position = [0, 0, 500];
+
+        renderer.render();
+      };
+    </script> -->
+  </head>
+  <body>
+    <h1>The Snake Game in Pixel Art</h1>
+    <p>
+      Score: <span id="actual-score">0</span> Best:
+      <span id="best-score"> 0</span> FPS: <span id="count-fps"> 0</span>
+    </p>
+    <div id="playground"></div>
+    <p id="msg">Press Space to start</p>
+    <div class="footer">
+      <a href="https://github.com/zby-zy/nostalgic-snake-game">
+        Snake game reference
+      </a>
+    </div>
+  </body>
+  <script src="main1.js"></script>
+</html>
